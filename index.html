@@ -1,0 +1,66 @@
+<html>
+<head>
+<title>Forum</title>
+<link href="styles.css" rel="stylesheet" type="css/text"/>
+</head>
+<div id="wrapper">
+<header>
+</header>
+<body>
+<form>
+<fieldset>
+<legend>Registration</legend>
+Username: <input type="text" name="uname" placeholder="Entre your full name">
+Status: <select>
+<option>Student</option>
+<option>Employed</option>
+</select>
+Email:<input type="email" id="email"/ name="email" placeholder="Enter your email"><br><br>
+Phone:<input type="tel" id="phone" name="phone" placeholder="111-222-3333" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+Website:<input type="url" id="url" name="url" placeholder="https://" pattern="https://.*" required>
+About:<textarea name="about" id="about" cols="10" rows="2"></textarea>
+Cites you visited: <select>
+<option>London</option>
+<option>Montreal</option>
+<option>New York</option>
+<option>Paris</option>
+</select>
+Password:<input type="password" id="password" name="password" placeholder="****" required>
+Confirm Password: <input type="password" id="password" name="password" placeholder="******" required>
+<input type="submit" value="Register">
+<input type="reset" value="Clear">
+</fieldset>
+
+<fieldset>
+<legend>Search the Site</legend>
+<input type="search" id="site-search" name="s">
+<button>Search</button>
+</fieldset>
+
+<fieldset>
+<legend>Sex</legend>
+<input type="radio" name="gender" value="male" checked> Male<br>
+<input type="radio" name="gender" value="female"> Female<br>
+</fieldset>
+
+<fieldset>
+<legend>Languages</legend>
+<input type="checkbox" name="lang" value="french"> I speak French<br>
+<input type="checkbox" name="lang" value="english"> I speak English<br>
+<input type="checkbox" name="lang" value="spanish"> I speak Spanish<br>
+</fieldset>
+
+<fieldset>
+<legend>Photo</legend>
+File:<input type="text" id="imageupl" name="image" value=""><br>
+<input type="image" id="image" name="image" src="http://bmlabca.com/uxwid/form/images/upload.png" style="width:10em;">
+
+</fieldset>
+</form>
+
+</body>
+<footer>
+</footer>
+</div>
+
+</html>
